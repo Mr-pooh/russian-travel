@@ -1,0 +1,7 @@
+.place__image {
+	grid-area: image;
+	min-width: 320px;
+	width: 100%;
+	object-fit: fill;
+	object-position: top;
+}
