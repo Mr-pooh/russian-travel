@@ -1,0 +1,20 @@
+.header__lang-link {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28px;
+	display: flex;
+	width: 30px;
+	text-decoration: none;
+	text-align: right;
+	letter-spacing: 0;
+}
+
+@media all and (max-width: 760px) {
+	.header__lang-link {
+		width: 22px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+}
+

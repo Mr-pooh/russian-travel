@@ -1,0 +1,31 @@
+.footer {
+	padding-top: 92px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 92.5%;
+	padding-bottom: 24px;
+}
+
+@media all and (min-width: 760px) and (max-width: 1000px) {
+	.footer {
+		padding-top: 88px;
+		width: 93.8%;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.footer {
+		padding-top: 64px;
+		flex-direction: column;
+		row-gap: 48px;
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1270px) {
+	.footer {
+		width: 90.5%;
+	}
+	
+}

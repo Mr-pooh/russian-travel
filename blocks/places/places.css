@@ -1,0 +1,21 @@
+.places {
+	display: flex;
+	flex-direction: column;
+	row-gap: 80px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+@media all and (min-width: 760px) and (max-width: 1000px) {
+	.places{
+		row-gap: 73px;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.places	{
+		row-gap: 50px;
+	}
+}

@@ -1,6 +1,0 @@
-.place__text {
-	grid-area: text;
-	display: flex;
-	flex-direction: column;
-	row-gap: 26px;
-}

@@ -1,0 +1,10 @@
+.lead__caption-image {
+	width: 96%;
+}
+
+@media all and (max-width: 1000px) {
+	.lead__caption-image {
+		width: 100%;
+	}
+	
+}

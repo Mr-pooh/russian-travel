@@ -1,0 +1,19 @@
+.cover__text {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	row-gap: 32px;
+	width: 100%;
+}
+
+@media all and (max-width: 760px) {
+	.cover__text {
+		row-gap: 16px;
+	}
+	
+}
+
+.cover__text:hover {
+	cursor: pointer;
+}

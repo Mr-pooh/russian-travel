@@ -1,0 +1,35 @@
+.intro {
+	width: 690px;
+	align-self: flex-start;
+	padding-top: 92px;
+	padding-bottom: 92px;
+	padding-left: 2%;
+}
+
+@media screen and (max-width: 1270px) and (min-width: 1000px) {
+	.intro {
+		padding-left: 4.7%;
+		
+	}
+	
+}
+
+@media screen and (max-width: 1000px) and (min-width: 760px) {
+	.intro {
+		padding-top: 88px;
+		padding-bottom: 88px;
+		width: 94%;
+		align-self: center;
+		padding-left: 0.3%;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.intro {
+		padding-top: 64px;
+		padding-bottom: 64px;
+		width: 91.5%;
+		align-self: center;
+	}
+}
+

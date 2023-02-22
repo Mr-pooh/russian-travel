@@ -1,0 +1,27 @@
+.photo-grid {
+	display: grid;
+	width: 115.5%;
+	align-self: center;
+	grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+	gap: 16px;
+}
+
+@media screen and (max-width: 1270px) and (min-width: 1000px) {
+	.photo-grid {
+		width: 90.5%;
+		gap: 14px;
+	}
+}
+
+@media all and (max-width: 1000px) and (min-width: 760px) {
+	.photo-grid {
+		width: 93.8%;
+		gap: 16px;
+	}
+}
+@media all and (max-width: 760px) {
+	.photo-grid {
+		width: 90%;
+		gap: 12px;
+	}
+}

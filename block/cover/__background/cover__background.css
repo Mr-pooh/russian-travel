@@ -1,9 +1,0 @@
-.cover__background {
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
-	opacity: 0.8;
-	transition: opacity .5s linear;
-}
- 

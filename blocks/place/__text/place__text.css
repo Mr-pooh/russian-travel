@@ -1,0 +1,20 @@
+.place__text {
+	grid-area: text;
+	display: flex;
+	flex-direction: column;
+	row-gap: 26px;
+}
+
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+	.place__text {
+		row-gap: 25px;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.place__text {
+		width: 90%;
+		justify-self: center;
+	}
+}

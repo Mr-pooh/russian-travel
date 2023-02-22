@@ -1,0 +1,29 @@
+.cards {
+	padding-top: 92px;
+	width: 100%;
+	padding-bottom: 92px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1270px) {
+	.cards {
+		align-self: center;
+		width: 95%;
+	}
+}
+
+@media screen and (min-width: 760px) and (max-width: 1000px) {
+	.cards {
+		padding-top: 88px;
+		padding-bottom: 90px;
+		align-self: center;
+		width: 95%;
+	}
+}
+
+@media all and (max-width: 760px) {
+	.cards {
+		padding-top: 64px;
+		padding-bottom: 66px;
+		
+	}
+}
