@@ -8,7 +8,7 @@
 	background-image: url(../../images/background-image.png);
 	background-size: cover;
 	background-position: 100% 100%;
-	padding: 36% 0;
+	padding: 24% 0;
 	background-repeat: no-repeat;
 }
 
@@ -33,12 +33,19 @@
 @media all and (max-width: 1270px) {
 	.cover{
 		width: 100%;
-		padding: 31% 0;
+		padding: 19% 0;
+	}
+}
+
+@media all and (max-width: 1000px) {
+	.cover {
+		padding: 15% 0;
 	}
 }
 
 @media all and (max-width: 760px) {
 	.cover {
 		row-gap: 16px;
+		padding: 10.3% 0;
 	}
 }

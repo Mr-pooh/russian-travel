@@ -1,6 +1,6 @@
 .header {
 	width: 92.5%;
-	max-height: 52px;
+	min-height: 52px;
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
@@ -12,13 +12,11 @@
 	.header {
 		padding-top: 16px;
 		width: 90%;
-		padding-bottom: 48px;
 	}
 }
 
 @media screen and (max-width: 1270px) and (min-width: 1000px) {
 	.header {
-		padding-bottom: 48px;
 		width: 90.5%;
 	}
 	
@@ -27,6 +25,11 @@
 @media all and (min-width: 760px) and (max-width: 1000px) {
 	.header{
 		width: 94%;
+	}
+}
+
+@media all and (max-width: 1270px) {
+	.header {
 		padding-bottom: 48px;
 	}
 }
