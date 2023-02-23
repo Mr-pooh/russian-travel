@@ -26,4 +26,4 @@
 
 Использовалить относительные величины ширины и высоты ```vw``` и ```vh``` соответсвтвенно, а такжке использовались проценты ```%``` при задании размеров блоков.
 Реализован способ построение сеток **Grid layout** в блоке ```photo-grid``` и ```place```.
-[Ссылка на GitHab Pages](https://github.com/Mr-pooh/russian-travel.git)
+[Ссылка на GitHab Pages](https://mr-pooh.github.io/russian-travel/)
